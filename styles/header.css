@@ -13,7 +13,6 @@
     background-position: center;
     width: 24px;
     height: 24px;
-   
 }
 
 .conteiner{
@@ -25,13 +24,16 @@
     padding: 1em;
 }
 .lista__menu{
-    display: none;
-    position: absolute;
+display: none;
+position: absolute;
 top:100%;
-    }
+
+}
+
 .conteiner__botao:checked~.lista__menu{
-        display: block;
-    }
-    .conteiner__botao{
-        display: none;
-    }
+    display: block;
+}
+
+.conteiner__botao{
+    display: none;
+}
