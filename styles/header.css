@@ -12,6 +12,7 @@
     background-position: center;
     width: 24px;
     height: 24px;
+    position: relative;
 }
 
 .conteiner{
@@ -29,4 +30,7 @@ top:100%;
     }
 .conteiner__botao:checked~.lista__menu{
         display: block;
+    }
+    .conteiner__botao{
+        display: none;
     }
